@@ -23,6 +23,7 @@ ATLAS="next-mongo-leafygreen-analytics"
 CHARTS="leafygreen-ui-design-system"
 REALM="mongo-realm-leafy-ui-grid"
 UNIVERSITY="leafygreen-ui-starter"
+
 ```
 
 ## Insert rows into the products collection
