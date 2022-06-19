@@ -15,7 +15,7 @@ http://leafygreen-analytics.vercel.app/
 ## Environment variables:
 
 ```java
-.
+..
 ```
 
 ## GitHub
@@ -29,7 +29,5 @@ git branch -M main
 git remote add origin git@github.com:coding-to-music/next-mongo-leafygreen-analytics.git
 git push -u origin main
 ```
-
-
 
 # Analytics Dashboard for Leafygreen

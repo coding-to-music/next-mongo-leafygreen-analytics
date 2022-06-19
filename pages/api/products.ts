@@ -1,8 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { Octokit } from "@octokit/core";
-import { leafyParser } from "utils/leafyParser";
-import { Product } from "utils/types";
-import { findOrAddPackage } from "database/updateDb";
+import { leafyParser } from "../../utils/leafyParser";
+import { Product } from "../../utils/types";
+import { findOrAddPackage } from "../../database/updateDb";
 
 const { MONGODB_OWNER, ATLAS, CHARTS, REALM, UNIVERSITY } = process.env;
 

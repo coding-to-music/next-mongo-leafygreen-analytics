@@ -1,5 +1,5 @@
 import { connectToDatabase } from "./mongodb";
-import { Product, Status } from "utils/types";
+import { Product, Status } from "../utils/types";
 
 interface ProductObject {
   _id: number;
