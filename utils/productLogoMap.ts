@@ -8,8 +8,8 @@ import {
   DocsLogo,
   EvergreenLogo,
   UniversityLogo,
-} from "components/Logos";
-import { Product } from "utils/types";
+} from "../components/Logos";
+import { Product } from "../utils/types";
 
 export const productLogoMap: Record<Product, typeof AtlasLogoMark> = {
   [Product.Atlas]: AtlasLogoMark,
