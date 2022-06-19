@@ -67,7 +67,7 @@ export default function ProductPage({
   const lastUpdatedDate = new Date(
     Math.max.apply(
       null,
-      // @ts-expect-error coercing an array of numbers to an array of dates
+      // @ ts-expect-error coercing an array of numbers to an array of dates
       [...productData].map(function (data) {
         if (data.lastUpdated) {
           return new Date(data.lastUpdated);
