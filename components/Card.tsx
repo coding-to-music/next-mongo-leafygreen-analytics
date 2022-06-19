@@ -6,9 +6,9 @@ import { H3, Body } from "@leafygreen-ui/typography";
 import LGCard from "@leafygreen-ui/card";
 import { spacing } from "@leafygreen-ui/tokens";
 import { uiColors } from "@leafygreen-ui/palette";
-import { HomeBadge } from "components/Badge";
-import { BadgeData, Product, Status } from "utils/types";
-import { productLogoMap } from "utils/productLogoMap";
+import { HomeBadge } from "../components/Badge";
+import { BadgeData, Product, Status } from "../utils/types";
+import { productLogoMap } from "../utils/productLogoMap";
 
 const headerContainer = css`
   display: flex;
