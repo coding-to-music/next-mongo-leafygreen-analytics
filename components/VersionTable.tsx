@@ -3,9 +3,9 @@
 import { jsx, css } from "@emotion/react";
 import Icon from "@leafygreen-ui/icon";
 import { Table, HeaderRow, TableHeader, Row, Cell } from "@leafygreen-ui/table";
-import PackageLink from "components/PackageLink";
-import { TableBadge } from "components/Badge";
-import { Status, TableRowData } from "utils/types";
+import PackageLink from "../components/PackageLink";
+import { TableBadge } from "../components/Badge";
+import { Status, TableRowData } from "../utils/types";
 
 function VersionTable({ data }: { data: Array<TableRowData> }) {
   return (

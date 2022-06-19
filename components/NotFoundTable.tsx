@@ -2,9 +2,9 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/react";
 import { Table, HeaderRow, TableHeader, Row, Cell } from "@leafygreen-ui/table";
-import PackageLink from "components/PackageLink";
-import { TableBadge } from "components/Badge";
-import { NotFoundPackage } from "utils/types";
+import PackageLink from "../components/PackageLink";
+import { TableBadge } from "../components/Badge";
+import { NotFoundPackage } from "../utils/types";
 
 function NotFoundTable({ data }: { data: Array<NotFoundPackage> }) {
   return (
