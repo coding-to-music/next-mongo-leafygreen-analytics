@@ -15,7 +15,29 @@ http://leafygreen-analytics.vercel.app/
 ## Environment variables:
 
 ```java
-..
+MONGODB_URI="mongodb+srv://<userid>:<password>@cluster0.zadqe.mongodb.net/next-mongo-leafygreen-analytics?retryWrites=true&w=majority"
+GITHUB_AUTH=""
+MONGODB_DB="next-mongo-leafygreen-analytics"
+MONGODB_OWNER="coding-to-music"
+ATLAS="next-mongo-leafygreen-analytics"
+CHARTS="leafygreen-ui-design-system"
+REALM="mongo-realm-leafy-ui-grid"
+UNIVERSITY="leafygreen-ui-starter"
+```
+
+## Insert rows into the products collection
+
+```
+"_id": {
+        "$oid": "62aea6af3a556c192336a39f"
+    }
+"package" : "@leafygreen-ui/card"
+"version" : "6.0.1"
+"lastUpdated" : "2022.06.01"
+"versionHistory" : {
+    "version" : "6.0.1",
+    "lastUpdated": "2022.06.01"
+    }
 ```
 
 ## GitHub
