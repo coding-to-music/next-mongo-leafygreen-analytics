@@ -9,18 +9,18 @@ import { jsx, css } from "@emotion/react";
 import Button from "@leafygreen-ui/button";
 import { uiColors } from "@leafygreen-ui/palette";
 import { spacing, breakpoints } from "@leafygreen-ui/tokens";
-import Header from "components/Header";
-import Card from "components/Card";
-import Footer from "components/Footer";
+import Header from "../components/Header";
+import Card from "../components/Card";
+import Footer from "../components/Footer";
 import {
   AllProductData,
   BadgeData,
   Product,
   Status,
   TableRowData,
-} from "utils/types";
-import { getProductPackages } from "database/updateDb";
-import { DataActionTypes, useDataContext } from "utils/DataProvider";
+} from "../utils/types";
+import { getProductPackages } from "../database/updateDb";
+import { DataActionTypes, useDataContext } from "../utils/DataProvider";
 
 export const mq = facepaint(
   Object.values(breakpoints).map((bp) => `@media (min-width: ${bp}px)`),
