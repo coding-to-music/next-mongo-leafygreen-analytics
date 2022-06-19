@@ -5,8 +5,8 @@ import { jsx, css } from "@emotion/react";
 import Button from "@leafygreen-ui/button";
 import { uiColors } from "@leafygreen-ui/palette";
 import { spacing } from "@leafygreen-ui/tokens";
-import Header from "components/Header";
-import Footer from "components/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const bodyContainer = css`
   display: grid;
