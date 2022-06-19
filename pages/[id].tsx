@@ -7,14 +7,14 @@ import { jsx, css } from "@emotion/react";
 import { H2, Subtitle, Overline } from "@leafygreen-ui/typography";
 import { spacing } from "@leafygreen-ui/tokens";
 import { uiColors } from "@leafygreen-ui/palette";
-import Header from "components/Header";
-import VersionTable from "components/VersionTable";
-import NotFoundTable from "components/NotFoundTable";
-import Footer from "components/Footer";
-import { getNotFoundPackages } from "database/updateDb";
-import { Product, NotFoundPackage } from "utils/types";
-import { useDataContext } from "utils/DataProvider";
-import { productLogoMap } from "utils/productLogoMap";
+import Header from "../components/Header";
+import VersionTable from "../components/VersionTable";
+import NotFoundTable from "../components/NotFoundTable";
+import Footer from "../components/Footer";
+import { getNotFoundPackages } from "../database/updateDb";
+import { Product, NotFoundPackage } from "../utils/types";
+import { useDataContext } from "../utils/DataProvider";
+import { productLogoMap } from "../utils/productLogoMap";
 
 const container = css`
   display: grid;
