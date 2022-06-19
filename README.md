@@ -55,4 +55,32 @@ git remote add origin git@github.com:coding-to-music/next-mongo-leafygreen-analy
 git push -u origin main
 ```
 
+## Build Errors
+
+```java
+info  - Compiled successfully
+info  - Collecting page data...
+info  - Generating static pages (0/12)
+
+Unhandled error during request: TypeError: Cannot read properties of null (reading 'packages')
+    at getProductPackages (/vercel/path0/.next/serverless/pages/index.js:3078:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async getStaticProps (/vercel/path0/.next/serverless/pages/index.js:583:39)
+    at async renderToHTML (/vercel/path0/node_modules/next/dist/next-server/server/render.js:28:1737)
+    at async renderReqToHTML (/vercel/path0/.next/serverless/pages/index.js:1090:334)
+    at async /vercel/path0/node_modules/next/dist/export/worker.js:12:92
+    at async /vercel/path0/node_modules/next/dist/build/tracer.js:3:470
+Error occurred prerendering page "/". Read more: https://err.sh/next.js/prerender-error
+TypeError: Cannot read properties of null (reading 'packages')
+    at getProductPackages (/vercel/path0/.next/serverless/pages/index.js:3078:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async getStaticProps (/vercel/path0/.next/serverless/pages/index.js:583:39)
+    at async renderToHTML (/vercel/path0/node_modules/next/dist/next-server/server/render.js:28:1737)
+    at async renderReqToHTML (/vercel/path0/.next/serverless/pages/index.js:1090:334)
+    at async /vercel/path0/node_modules/next/dist/export/worker.js:12:92
+    at async /vercel/path0/node_modules/next/dist/build/tracer.js:3:470
+info  - Generating static pages (3/12)
+Unhandled error during request: TypeError: Cannot read properties of null (reading 'packages')
+```
+
 # Analytics Dashboard for Leafygreen
