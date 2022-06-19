@@ -3,7 +3,7 @@
 import { jsx, css } from "@emotion/react";
 import LGBadge, { Variant } from "@leafygreen-ui/badge";
 import { spacing } from "@leafygreen-ui/tokens";
-import { Status } from "utils/types";
+import { Status } from "../utils/types";
 
 const getVariant = (status: Status): Variant => {
   switch (status) {
